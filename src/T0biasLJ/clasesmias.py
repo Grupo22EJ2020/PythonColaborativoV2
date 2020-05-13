@@ -5,5 +5,11 @@ class Multiplicacion():
     def multi(self):
          return f"El resultado de tu multiplicacion es:{self.__numero1*self.__numero2}"
 
-
+class Deportista():
+    def __init__(self,deporte,peso,edad):
+        self.__deporte=deporte
+        self.__peso=peso
+        self.__edad=edad
+    def infodep(self):
+        return f"Entrena {self.__deporte} , pesa: {self.__peso} kilos , tiene {self.__edad} años"
 
