@@ -5,3 +5,11 @@ class Cargador():
     
     def imprimirinfo(self):
         print(f"Cargador \n Color: {self.color} \n Marca: {self.marca}")
+
+class Puerta():
+    def __init__(self, ancho, alto|):
+        self.ancho = ancho
+        self.alto = alto
+    
+    def imprimirinfo(self):
+        print(f"Puerta \n Ancho: {self.ancho} \n Alto: {self.alto}")
