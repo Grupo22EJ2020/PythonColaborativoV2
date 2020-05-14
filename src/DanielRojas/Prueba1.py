@@ -17,8 +17,8 @@ while seleccion=1:
         talla=(input("Dime la talla de la Playera : "))
         objeto=Playera(color,marca,talla)
         objeto.imprimirInfo()
-        print(1= Si quiero seguir con el programa )
-        print(2=No quiero seguir con el programa )
+        print("1= Si quiero seguir con el programa" )
+        print("2=No quiero seguir con el programa" )
         seleccion=int(input("Deseas seguir con el programa :"))
 
     elif opcion=2:
@@ -27,8 +27,8 @@ while seleccion=1:
         color=(input("Dime el color del Pantalon"))
         objeto1=Pantalon(talla,marca,color)
         objeto1.ImprimirInfo()
-        print(1= Si quiero seguir con el programa )
-        print(2=No quiero seguir con el programa )
+        print("1= Si quiero seguir con el programa" )
+        print("2=No quiero seguir con el programa" )
         seleccion=int(input("Deseas seguir con el programa :"))
     
     elif opcion=3:
@@ -37,7 +37,7 @@ while seleccion=1:
         costo=(int(input("Dime el costo de los Zapatos")))
         objeto2=Zapatos(modelo,marca,costo)
         objeto2.ImprimirInfo2()
-        print(1= Si quiero seguir con el programa )
-        print(2=No quiero seguir con el programa )
+        print("1= Si quiero seguir con el programa" )
+        print("2=No quiero seguir con el programa" )
         seleccion=int(input("Deseas seguir con el programa :"))
 
