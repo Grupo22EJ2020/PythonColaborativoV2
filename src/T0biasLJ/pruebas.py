@@ -15,3 +15,4 @@ persona= Deportista(deporte,peso,edad)
 info=persona.infodep()
 print(info)
 
+
