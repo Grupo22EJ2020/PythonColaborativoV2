@@ -12,12 +12,7 @@ class Deportista():
         self.__edad=edad
     def infodep(self):
         return f"Entrena {self.__deporte} , pesa: {self.__peso} kilos , tiene {self.__edad} años"
-class Pc():
-    def __init__(self,marca,precio):
-        self.__marca=marca
-        self.__precio=precio
-    def infopc(self):
-        print(f"Pc \n Marca: {self.__marca} \n Precio: {self.__precio}")
+
        
     
 

@@ -1,6 +1,5 @@
 from clasesmias import Multiplicacion
 from clasesmias import Deportista
-from clasesmias import Pc
 while True:
     numero1=int(input("Dame el primer numero: "))
     numero2= int(input("Dame el segundo numero: "))
@@ -15,8 +14,4 @@ edad=int(input("Cuantos años tiene?"))
 persona= Deportista(deporte,peso,edad)
 info=persona.infodep()
 print(info)
-
-nuevapc=Pc("Lenovo",12000)
-informacion=nuevapc.infopc()
-print(informacion)
 
