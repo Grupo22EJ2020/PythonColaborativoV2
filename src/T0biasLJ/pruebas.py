@@ -14,5 +14,3 @@ edad=int(input("Cuantos años tiene?"))
 persona= Deportista(deporte,peso,edad)
 info=persona.infodep()
 print(info)
-
-
