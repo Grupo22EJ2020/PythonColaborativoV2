@@ -6,7 +6,7 @@ class Playera ():
     
     def imprimirInfo(self):
         print(f"COLOR: {self.__color}")
-        print(f"Marca:{self__marca}")
+        print(f"Marca:{self.__marca}")
         print(f"Talla:{self.__talla}")
 
 class Pantalon ():
