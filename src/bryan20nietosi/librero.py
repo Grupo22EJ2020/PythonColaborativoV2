@@ -1,6 +1,12 @@
-class bryan20nietosi:
-    def __init__(self,a,b):
-        self.__a=a
-        self.__b=b
-    def sumatoria(self):
-        return f"La suma es: {self.__a+self.__b}"
+class Alumno:
+    def __init__(self,nombre,apellidos):
+        self.__a=nombre
+        self.__b=apellidos
+    def Nombratura(self):
+        return f"Nombre: {self.__a} Apellido: {self.__b}"
+class Calificacion:
+    def __init__(self,parcial,final):
+        self.__c=parcial
+        self.__d=final
+    def Promedio(self):
+        return f"Promedio Final: {(self.__c+self.__d)/2}"
