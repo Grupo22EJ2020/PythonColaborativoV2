@@ -20,7 +20,7 @@ class Celular():
         self.__modelo = valor
     
     def imprimirInfo(self):
-        print(f"Cargador \n Marca: {self.marca} \n Modelo: {self.modelo}")
+        print(f"Celular\nMarca: {self.marca}\nModelo: {self.modelo}")
     
 class Mesa():
     def __init__(self, color, sillas):
@@ -44,7 +44,7 @@ class Mesa():
         self.__sillas = valor
 
     def imprimirInfo(self):
-        print(f"Mesa \n Color: {self.color} \n Sillas: {self.sillas}")
+        print(f"Mesa\nColor: {self.color}\nSillas: {self.sillas}")
 
 class Gato():
     def __init__(self, sexo, nombre):
@@ -68,4 +68,4 @@ class Gato():
         self.__nombre = valor
     
     def imprimirInfo(self):
-        print(f"Gato \n Sexo: {self.sexo} \n Nombre: {self.nombre}")
+        print(f"Gato\nSexo: {self.sexo}\nNombre: {self.nombre}")
