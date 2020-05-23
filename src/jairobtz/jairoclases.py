@@ -18,7 +18,7 @@ class Guitarra():
 
 
 class Camioneta():
-    def __init__(self,agencia,color,precio):
+    def __init__(self,agencia,color,año):
         self.agencia = agencia
         self.color = color
         self.año = año
