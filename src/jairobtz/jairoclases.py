@@ -15,3 +15,13 @@ class Guitarra():
      def imprimirGuitarra(self):
          print(f"Guitarra \n tipo: {self.tipo} \n cuerdas: {self.cuerdas} \n precio: {self.precio}")
 
+
+
+class Camioneta():
+    def __init__(self,agencia,color,precio):
+        self.agencia = agencia
+        self.color = color
+        self.año = año
+     def imprimirCamioneta(self):
+         print(f"Camioneta \n agencia: {self.agencia} \n color: {self.color} \n año: {self.año}")
+
