@@ -19,7 +19,22 @@ while True
         g.ImprimirInfo()
         input("\nPresiona enter para continuar...\n")
 
+    if claseSeleccionada == 2:
+        marca=(input("Dime la marca de la T.V.: "))
+        pulgadas=int(input("Dime las pulgadas de la T.V.: "))
+        modelo=(input("Dime el modelo de la T.V.: "))
+        tv=Television(marca, pulgadas, modelo)
+        tv.ImprimirInfo()
+        input("\nPresiona enter para continuar...\n")
         
+
+
+
+
+
+
+
+
 
 
 
