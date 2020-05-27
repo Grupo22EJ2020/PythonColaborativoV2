@@ -13,3 +13,11 @@ class Deportista():
     def infodep(self):
         return f"Entrena {self.__deporte} , pesa: {self.__peso} kilos , tiene {self.__edad} años"
 
+class Encuesta:
+    def __init__(self,nombre,ciudad):
+        self.__nombre=nombre
+        self.__ciudad=ciudad
+    def infopersona(self):
+        return f"Eres {self.__nombre}, vives en {self.__ciudad}"
+    
+

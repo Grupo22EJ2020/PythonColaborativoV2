@@ -6,13 +6,13 @@ class PC:
         print(f"PC \n procesador: {self.procesador} \n ram: {self.ram}")
 
 
-class Nieve:
+class Helado:
     def __init__(self, sabor, envase, precio):
         self.sabor = sabor
         self.envase = envase
         self.precio = precio
-    def imprimirNIEVE(self):
-        print(f"Nieve \n sabor: {self.sabor} \n envase: {self.envase} \n precio: {self.precio}")
+    def imprimirHelado(self):
+        print(f"Helado \n sabor: {self.sabor} \n envase: {self.envase} \n precio: {self.precio}")
 
 
 class Teclado:
@@ -24,4 +24,3 @@ class Teclado:
         print(f"Teclado \n precio: {self.precio} \n marca: {self.marca} \n modelo: {self.modelo}")
     
     
-
