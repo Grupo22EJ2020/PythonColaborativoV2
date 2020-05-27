@@ -8,6 +8,7 @@ while True
     print("1.-Gorra\n")
     print("2.-Television\n")
     print("3.-Pulsera\n")
+    print("4.-Salir\n")
 
     claseSeleccionada=int(input("\n¿Cual es la clase a seleccionar?: "))
 
@@ -26,7 +27,18 @@ while True
         tv=Television(marca, pulgadas, modelo)
         tv.ImprimirInfo()
         input("\nPresiona enter para continuar...\n")
-        
+
+    if claseSeleccionada == 3:
+        marca=(input("Dime la marca de la Pulsera: "))
+        talla=(input("Dime la talla de la Pulsura: "))
+        color=(input("Dime el color de la Pulsura: "))
+        p=Pulsera(marca, talla, color)
+        p.ImprimirInfo()
+        input("\nPresiona enter para continuar...\n")
+
+    if claseSeleccionada == 4:
+        break
+
 
 
 
