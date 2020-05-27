@@ -1,16 +1,19 @@
-from librero import Alumno
-from librero import Calificacion
+from librero import Alumno, Escuela, Facultad
 cantidad=int(input("Cantidad de alumnos: "))
 lista=[]
 for i in range(1,cantidad+1):
-    nom=input(f"Nombre alumno {i}: ")
+    input(f"Alumno numero: {i}\n Enter para continuar...")
+    nom=input(f"Nombre alumno: ")
     ape=input("Apellidos: ")
-    cal1=int(input(f"Cal1 de alumno {i}: "))
-    cal2=int(input(f"Cal2 de alumno {i}: "))
+    escuela=input(f"Nombre de Escuela: ")
+    ciudad=input(f"Ciudad: ")
+    facultad=input("Nombre de Facultad: ")
+    carrera_facultad=input("Nombre de Carrera: ")
+    ciudad_facultad=input("Ciudad de origen de Facultad: ")
     nombre=Alumno(nom,ape)
-    prom=Calificacion(cal1,cal2)
-    mostrar=nombre.Nombratura()
-    promedio=prom.Promedio()
-    lista.append(mostrar)
-    lista.append(promedio)
-print(lista)
+    provincia=Escuela(escuela,ciudad)
+    profesion=Facultad(facultad,carrera_facultad,ciudad_facultad)
+    print(nombre.Info())
+    print(provincia.Info())
+    print(profesion.Info())
+    input("Enter para continuar...")
